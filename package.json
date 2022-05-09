@@ -1,0 +1,16 @@
+{
+  "name": "node-webhook-retry-test-service",
+  "version": "1.0.0",
+  "description": "A simple NodeJS API server to test services that provide a webhook retry feature",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "npm install -g nodemon && nodemon -L app.js"
+  },
+  "keywords": [
+    "node",
+    "webhook"
+  ],
+  "author": "JP Shipherd <jpbulk@gmail.com>",
+  "license": "MIT"
+}
